@@ -62,7 +62,7 @@ if st.button("Search"):
                 if "Image" in df.columns:
                     image_path = row.get("Image", "")
                     if os.path.exists(str(image_path)):
-                        st.image(image_path, width=150)
+                        st.image(image_path, width=5000)
 
             with col2:
                 # for col in df.columns:
